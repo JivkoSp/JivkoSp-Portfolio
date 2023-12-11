@@ -43,7 +43,7 @@ const HeroSection = () => {
           <button className="bg-gradient-to-br from-blue-400 via-purple-600 to-purple-800 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4 font-mono">
             Hire Me
           </button>
-          <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-600 to-purple-800 px-1 py-1  text-white rounded-full">
+          <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-600 to-purple-800 px-0.5 py-0.5  text-white rounded-full">
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 font-mono">
               Download CV
             </span>
