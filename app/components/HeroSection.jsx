@@ -9,11 +9,11 @@ const HeroSection = () => {
       <div className="col-span-5 place-self-center mt-4 mb-5 lg:mt-0">
         <div className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
           <Image
-            src="/images/cyberpunk-fox.jpeg"
+            src="/images/me.png"
             alt="hero image"
             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-3xl"
-            width={350}
-            height={350}
+            width={320}
+            height={320}
           />
         </div>
       </div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           I am currently finishing my master's degree in <strong className="text-blue-400">Cybersecurity</strong>.
         </p>
         <div>
-          <button className="bg-gradient-to-br from-blue-400 via-purple-600 to-purple-800 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4 font-mono">
+          <button className="bg-gradient-to-br bg-purple-950 hover:bg-purple-800 text-white px-6 py-3 rounded-full mr-4 font-mono">
             Hire Me
           </button>
           <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-600 to-purple-800 px-0.5 py-0.5  text-white rounded-full">
