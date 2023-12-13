@@ -59,7 +59,7 @@ const AboutSection = () => {
   return (
     <section className="text-white">
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src="/images/new.png" className="rounded-3xl" width={550} height={550} />
+        <Image src="/images/new.png" className="rounded-3xl hidden md:block" width={550} height={550} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-purple-200 mb-4 font-mono">About Me</h2>
           <p className="text-white texxt-base md:text-lg font-mono">
