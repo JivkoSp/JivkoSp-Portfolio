@@ -52,7 +52,7 @@ const AboutSection = () => {
         <Image src="/images/new.png" alt="aboutme" className="rounded-3xl hidden md:block" width={550} height={550} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-purple-200 mb-4 font-mono">About Me</h2>
-          <p className="text-white text-base lg:text-lg font-mono">
+          <p className="text-white text-base lg:text-lg">
             I like solving real-life problems with code. My experience includes working with C#, .NET, JavaScript, Perl, PostgreSQL, Elasticsearch, gRPC, and Git. 
             I&apos;m committed to continuous learning and innovation in the field of web development.
           </p>
