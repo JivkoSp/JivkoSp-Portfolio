@@ -53,9 +53,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-purple-200 mb-4 font-mono">About Me</h2>
           <p className="text-white text-base lg:text-lg font-mono">
-            I am a full stack web developer with a passion for creating reliable,
-            interactive and responsive web applications. I have experience
-            working with C#, .NET, JavaScript, PostgreSQL, Elasticsearch, gRPC and Git. I am always looking to expand my knowledge and skill set.
+            I like solving real-life problems with code. My experience includes working with C#, .NET, JavaScript, Perl, PostgreSQL, Elasticsearch, gRPC, and Git. 
+            I&apos;m committed to continuous learning and innovation in the field of web development.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
