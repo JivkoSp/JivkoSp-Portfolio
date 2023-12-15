@@ -34,16 +34,6 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2"> 
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection = () => {
@@ -57,12 +47,12 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
-      <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
+    <section id="about" className="text-white">
+      <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 xl:px-16">
         <Image src="/images/new.png" alt="aboutme" className="rounded-3xl hidden md:block" width={550} height={550} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-purple-200 mb-4 font-mono">About Me</h2>
-          <p className="text-white texxt-base md:text-lg font-mono">
+          <p className="text-white text-base lg:text-lg font-mono">
             I am a full stack web developer with a passion for creating reliable,
             interactive and responsive web applications. I have experience
             working with C#, .NET, JavaScript, PostgreSQL, Elasticsearch, gRPC and Git. I am always looking to expand my knowledge and skill set.
@@ -79,12 +69,6 @@ const AboutSection = () => {
               active={tab === "education"}
             >
               Education
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              Certifications
             </TabButton>
           </div>
           <div className="mt-8">
