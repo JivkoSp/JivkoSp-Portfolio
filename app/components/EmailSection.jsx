@@ -1,6 +1,7 @@
 import React from "react";
 import { RiGithubFill } from "react-icons/ri";
 import Link from "next/link";
+import Image from "next/image";
 
 const EmailSection = () => {
   return (
