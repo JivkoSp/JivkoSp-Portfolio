@@ -7,10 +7,10 @@ const EmailSection = () => {
     <section className="grid md:grid-cols-2 my-12 md:my-16 py-24 gap-4 relative">
       <div className="absolute w-80 h-80 z-0 blur-lg top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I'll try my best
+          I&apos;m currently looking for new opportunities, my inbox is always open.
+          Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
@@ -41,7 +41,7 @@ const EmailSection = () => {
               type="text"
               id="subject"
               className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
-              placeholder="Just saying hi"
+              placeholder="..."
             />
           </div>
           <div className="mb-6">
